@@ -1,0 +1,16 @@
+[project]
+name = "sql-mother"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[all]~=0.115.8",
+    "uvicorn~=0.34.0",
+    "pyjwt~=2.10.1",
+    "python-jose[cryptography]~=3.3.0",
+    "bcrypt~=4.2.1",
+    "sqlalchemy~=2.0.38",
+    "pymysql~=1.1.1",
+    "asyncpg~=0.30.0"
+]
